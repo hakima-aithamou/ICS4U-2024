@@ -1,0 +1,124 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  background-color: red;
+  height: 4.1em;
+  margin: -0.5em;
+}
+
+#home {
+  margin-left: 2.8em;
+  margin-top: 0.3em;
+  height: 3.5em;
+  width: 12.3em;
+}
+
+.Header-link {
+  position: relative;
+  display: inline-block;
+  margin-left: 43.5em;
+  margin-top: -2.5em;
+
+}
+.Header-link a{
+  font-family: Raleway,sans-serif;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 0.8125em;
+  transition-duration: 1.5s;
+  padding: 1.5em;
+} 
+
+.Header-link a:Hover{
+font-weight: lighter;
+}
+
+.news{
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.News h3{
+  text-align: center;
+  color: #333233;
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-size: 1.8em;
+  letter-spacing: -0.0675em;
+  text-transform: uppercase;
+  font-weight:light;
+}
+
+.NewsText{
+  margin-top: -1em;
+  display: flex;
+  flex-direction: row;
+}
+.colone{
+   display: flex;
+  flex-direction: column; 
+}
+.Article{
+   display: flex;
+  flex-direction: column; 
+  padding: 1em;
+}
+.Article img{
+width: 23em;
+}
+.Article a {
+  color: #d52027;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.Article a:hover {
+  color: #303030;
+  transition-duration: 0.25s;
+}
+p{
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-size: 1.375em;
+  line-height: 2.1875em;
+  margin-top: 1.125em;
+  margin-bottom: 1.125em;
+  color: #818181;
+  font-weight: 400;
+}
+h5{
+  font-family: Raleway,sans-serif;
+  color: #303030;
+  font-weight: 400;
+  font-size: 1.5em;
+  margin-top: -0.5em;
+}
+/*Input other stuff here  */
+.Bottom {
+  background-color: #333233;
+  margin: -0.5em;
+  display: flex;
+  flex-direction: column;
+  height: 20em;
+}
+.Bottom img{
+  width: 25em;
+  margin-left: 36%;
+  margin-top: 5em;
+}
+.Bottom a {
+  margin-left: 44%;
+  margin-top: 3em;
+  color: #818181;
+  text-decoration: none;
+  font-size: 1.25em;
+}
+
+.Bottom a:hover {
+  color: white;
+  transition-duration: 0.25s;
+}

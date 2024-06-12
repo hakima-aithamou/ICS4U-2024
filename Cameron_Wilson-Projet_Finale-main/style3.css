@@ -1,0 +1,553 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.englobante {
+  background-color: black;
+  margin-left: -0.5em;
+  margin-top: -0.5em;
+  width: 101.09%;
+}
+
+.not-pop-up {
+  opacity: 50%;
+  z-index: 0;
+  margin-top: -38.96em;
+}
+
+.onload {
+  visibility: visible;
+  z-index: 1;
+  margin-top: 11.5em;
+}
+
+.type-commande {
+  visibility: hidden;
+  z-index: 2;
+  margin-top: -26.25em;
+}
+
+.emporter-commande {
+  visibility: hidden;
+  z-index: 3;
+  margin-top: -21.25em;
+}
+
+.livraison-commande {
+  visibility: hidden;
+  z-index: 3;
+  margin-top: -26.25em;
+}
+
+.onload {
+  text-align: center;
+  width: 50em;
+  height: 25em;
+  border-radius: 1.5em;
+  position: relative;
+  margin-left: 17em;
+  background-color: white;
+}
+
+.onload button {
+  margin-left: 56em;
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+}
+
+.close-button {
+  background-color: red;
+  border-radius: 100%;
+  border-style: none;
+  width: 3em;
+  height: 3em;
+  margin-top: -3.8em;
+  margin-left: 37.5em;
+  visibility: hidden;
+}
+
+
+.onload p {
+  margin-left: 4em;
+  margin-right: 4em;
+  font-size: 1.5em;
+}
+
+#open-commande {
+  border-radius: 5em;
+  height: 3em;
+  width: 15em;
+  background-color: red;
+  border-style: none;
+  color: white;
+  font-weight: bolder;
+  margin-left: 4em;
+}
+
+.type-commande {
+  text-align: center;
+  width: 30em;
+  height: 20em;
+  border-radius: 1.5em;
+  position: relative;
+  margin-left: 27em;
+  background-color: white;
+}
+
+.type-commande .close-button {
+  margin-left: 31.5em;
+}
+
+.commande-header {
+  background-color: red;
+  color: white;
+  height: 3.5em;
+border-top-left-radius: 1em;
+border-top-right-radius: 1em;
+}
+
+.commande-header h2 {
+  font-weight: lighter;
+  font-size: 1.5em;
+  padding-top: 0.5em;
+}
+
+.type-commande-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.type-commande-body h4 {
+  font-size: 1.25em;
+  padding-top: 0.5em;
+}
+
+.type-commande-body-btns {
+  display: flex;
+  flex-direction: row;
+}
+
+.type-commande-body-btns button {
+  border-radius: 0.5em;
+  border-width: 0.0625em;
+  width: 12em;
+  height: 8em;
+}
+
+.in-pour-emporter {
+  font-size: 1.25em;
+}
+
+.in-pour-livraison {
+  font-size: 1.25em;
+}
+
+.emporter-commande {
+  text-align: center;
+  width: 35em;
+  height: 25em;
+  border-radius: 1.5em;
+  position: relative;
+  margin-left: 24em;
+  background-color: white;
+}
+
+.emporter-commande .body-header .emporter {
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+#btns-address {
+  display: flex;
+  flex-direction: column;
+}
+
+#btns-address button {
+  border-radius: 0.5em;
+  border-width: 0.0625em;
+  margin: 0.5em;
+  margin-left: 5%;
+  width: 90%;
+  height: 4em;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+#btns-address button div {
+  display: flex;
+  flex-direction: column;
+}
+
+.livraison-commande {
+  text-align: center;
+  width: 35em;
+  height: 27em;
+  border-radius: 1.5em;
+  position: relative;
+  margin-left: 24em;
+  background-color: white;
+}
+
+.body-header button {
+  margin-top: 1em;
+  border-radius: 5em;
+  border-width: 0.0625em;
+  height: 3em;
+}
+
+.livraison-commande .livraison-commande-body .body-header .livraison {
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+.emporter {
+  width: 10em;
+}
+
+.livraison {
+  width: 8em;
+}
+
+.body-header hr {
+  margin-top: 1em;
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.entrer-address-inner input {
+  margin-top: 2em;
+}
+
+.confirmer {
+  border-radius: 5em;
+  height: 3.5em;
+  margin-top: 1em;
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+#close1 {
+  background-color: red;
+  border-style: hidden;
+}
+
+#close2 {
+  background-color: red;
+  border-style: hidden;
+}
+
+#close2 img {
+  height: 3.5em;
+}
+
+.header {
+  background-color: red;
+  height: 5.7em;
+  margin: -0.5em;
+  width: 88.9em;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header_left {
+  display: flex;
+  flex-direction: row;
+}
+
+.header_middle a {
+  line-height: 1.4;
+  font-family: Lato, sans-serif;
+  text-transform: none;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.header_middle {
+  display: flex;
+  flex-direction: row;
+}
+
+.header_right {
+  background-color: white;
+  height: 5.7em;
+  width: 15em;
+  margin-left: 48em;
+  border-color: grey;
+  border: 0.0625em;
+  align-items: center;
+}
+
+/* #langues {
+  border-radius: 100%;
+  border-color: white;
+  width: 3.5em;
+  height: 3.5em;
+  text-align: center;
+  background-color: red;
+  color: white;
+  font-size: 1em;
+} */
+.aindex4 {
+  text-decoration: none;
+}
+#SignIn {
+  border-radius: 5em;
+  width: 9em;
+  height: 2em;
+  border-color: red;
+  color: red;
+  font-size: 1.3em;
+  font-family: Lato, sans-serif;
+  text-transform: none;
+  font-style: normal;
+  font-weight: normalem;
+  margin-top: 1em;
+  margin-left: 1em;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.votre_commande {
+  font-family: Lato, sans-serif;
+  font-size: 1.0625em;
+  color: rgb(51, 51, 51);
+  box-shadow: 0em 0.5em 0.5em lightgrey;
+}
+
+.commande_left {
+  display: flex;
+  flex-direction: row;
+}
+
+#emplacement {
+  border-radius: 10%;
+  border-color: lightgray;
+}
+
+.commande_right {
+  display: flex;
+  flex-direction: row;
+  border: 0.5em lightgrey;
+  margin-left: 40em;
+}
+
+#dateSelector {
+  width: 10em;
+}
+
+.commande_right select {
+  width: 10em;
+  height: 2.5em;
+  font-size: 1em;
+  border-color: gray;
+}
+
+.not-pop-up {
+  background-color: white;
+}
+
+.menu {
+  margin-left: 2em;
+}
+
+.menu_right {
+  background-color: #f2f2f2;
+  border-radius: 5%;
+  width: 35em;
+  margin-left: 53em;
+  margin-top: -25em;
+}
+
+.submenu_right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 13em;
+}
+
+.submenu_right h3 {
+  color: red;
+}
+
+.submenu_right {
+  font-family: Lato, sans-serif;
+  color: rgb(51, 51, 51);
+}
+
+.list-group-item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2em;
+}
+
+.quant {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  margin: 0.2em;
+  border-radius: 0.5em;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.name,
+.price {
+  font-size: 1em;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: -2.5em;
+}
+
+.updown {
+  display: flex;
+  flex-direction: row;
+  border: 0.0625em solid lightgray;
+  border-radius: 5em;
+  align-items: center;
+  height: 2.5em;
+}
+
+.count {
+  margin: 0.5em;
+  margin-top: 0.75em;
+  height: 2.5emem;
+  width: 2.5emem;
+}
+
+.quantit {
+  border: none;
+  border-radius: 100%;
+  margin: 0.5em;
+  height: 2.5emem;
+  width: 2.5emem;
+  background-color: white;
+}
+
+/* .quantit :hover {
+  .updown {
+    border-color: black;
+  }
+} */
+
+.delete {
+  border-radius: 100%;
+  border-color: gray;
+  border-width: 0.0625em;
+  margin-left: 1.5em;
+  height: 2.5emem;
+  width: 2.5emem;
+}
+
+.delete:hover {
+  border-color: black;
+}
+
+.submenu_right2 {
+  font-size: 1.0625em;
+  font-family: Lato, sans-serif;
+}
+
+#total {
+  color: #ea0808;
+  font-style: normal;
+  font-weight: bold;
+  margin-left: 27em;
+}
+
+.submenu_right2 {
+  display: flex;
+  flex-direction: row;
+}
+
+#pay {
+  border-radius: 5em;
+  border-color: lightgray;
+  display: flex;
+  flex-direction: row;
+  width: 30em;
+  height: 3em;
+  text-align: center;
+  margin-left: 7em;
+}
+
+.Poutine {
+  border-color: 0.06em lightgray;
+  font-family: Lato, sans-serif;
+}
+
+.Shawarma {
+  border-color: 0.06em lightgray;
+  font-family: Lato, sans-serif;
+}
+
+.Shawarma h3 {
+  color: red;
+}
+
+.Poutine h3 {
+  color: red;
+}
+
+.poutine_inner,
+.shawarma_inner {
+  display: flex;
+  flex-direction: row;
+}
+
+#add_poutine,
+#add_combo {
+  background-color: red;
+  border: none;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 100%;
+
+}
+
+#Price {
+  color: red;
+}
+
+#menu_item {
+  height: 12em;
+  width: 20em;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40%;
+  margin-top: 10em;
+}
+
+.bottom p {
+  line-height: 1.4;
+  font-family: Lato, sans-serif;
+  color: rgb(51, 51, 51);
+  font-size: 1em;
+}
+
+.bottom img {
+  height: 2em;
+  width: 5em;
+}
