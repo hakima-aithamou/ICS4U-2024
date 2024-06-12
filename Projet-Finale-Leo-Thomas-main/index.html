@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/03a1a097c7.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crumb & Co.</title>
+</head>
+
+<body>
+  <div id="banner">
+    <div id="header">
+      <img src="Resrouces/IMG/Logo.png" alt="Logo">
+      <h1>Crumb & Co. Bakery</h1>
+      <button><a href="signin.html" </a><i class="fa-solid fa-user"></i></button>
+      
+      <button><a href="Cart.html"><i class="fa-solid fa-cart-shopping"></i></a></button>
+    </div>
+    <div id="ClickableMain">
+      <div class="MenuDiv" id="BreadMenu" onclick="openNav(`BreadSideNav`)"`)">Pain </div>
+      <div class="MenuDiv" id="CakeMenu" onclick="openNav(`CakeSideNav`)">Gateau </div>
+      <div class="MenuDiv" id="PastryMenu" onclick="openNav(`PatSideNav`)">Pâtisserie </div>
+      <div class="MenuDiv" id="SandMenu" onclick="openNav(`SandSideNav`)">Sandwichs </div>
+      
+    </div>
+    <div id="BreadSideNav" class="sidenav">
+      <a class="XButton" onclick="closeNav(`BreadSideNav`)">&#10006;</a>
+      <div class="Menuitem">
+        <img class="Menuitemimg" src="Resrouces/IMG/Sourdough.gif" alt="Bread">
+        <p class="Menuitemname">Sourdough - 25$</p>
+        
+        <button class="ButtonAddCart" id="00">Ajouter Au Cart</button>
+      </div>
+      
+      <div class="Menuitem">
+        <img class="Menuitemimg" src="Resrouces/IMG/Bagels.jpg" alt="Bread">
+        <p class="Menuitemname">Bagels (12) - 15.99$</p>
+        
+        <button class="ButtonAddCart" id="01">Ajouter Au Cart</button>
+      </div>
+      <div class="Menuitem">
+        <img class="Menuitemimg" src="Resrouces/IMG/Bagueetes.jpeg" alt="Bread">
+        <p class="Menuitemname">Baguette - 13.99$</p>
+        
+        <button class="ButtonAddCart" id="02">Ajouter Au Cart</button>
+      </div>
+      <div class="Menuitem">
+        <img class="Menuitemimg" src="Resrouces/IMG/Challah.jpg" alt="Bread">
+        <p class="Menuitemname">Challah - 32.99</p>
+        
+        <button class="ButtonAddCart" id="03">Ajouter Au Cart</button>
+      </div>
+
+    </div>
+
+      
+      <div id="CakeSideNav" class="sidenav">
+        <a class="XButton" onclick="closeNav(`CakeSideNav`)">&#10006;</a>
+        <div class="Menuitem">
+          <img class="Menuitemimg" src="Resrouces/IMG/smith.jpg" alt="Bread">
+          <p class="Menuitemname">Smith Island Cake - 75$</p>
+          
+          <button class="ButtonAddCart" id="10">Ajouter Au Cart</button>
+        </div>
+
+        <div class="Menuitem">
+          <img class="Menuitemimg" src="Resrouces/IMG/funfetti_cake_49993_16x9.jpg" alt="Bread">
+          <p class="Menuitemname">Funfetti Cake - 125$</p>
+          
+          <button class="ButtonAddCart" id="11">Ajouter Au Cart</button>
+        </div>
+        <div class="Menuitem">
+          <img class="Menuitemimg" src="Resrouces/IMG/Red Velvet.jpeg" alt="Bread">
+          <p class="Menuitemname">Red Velvet Cake - 200$</p>
+          
+          <button class="ButtonAddCart" id="12">Ajouter Au Cart</button>
+        </div>
+        <div class="Menuitem">
+          <img class="Menuitemimg" src="Resrouces/IMG/Flan.jpg" alt="Bread">
+          <p class="Menuitemname">Flan - 45$</p>
+          
+          <button class="ButtonAddCart" id="13">Ajouter Au Cart</button>
+        </div>   
+    </div>
+    
+    <div id="PatSideNav" class="sidenav">
+      <a class="XButton" onclick="closeNav(`PatSideNav`)">&#10006;</a>
+      <div class="Menuitem">
+        <img class="Menuitemimg" src="Resrouces/IMG/Cross.jpg" alt="Bread">
+        <p class="Menuitemname">Croissant - 4$</p>
+        
+        <button class="ButtonAddCart" id="20">Ajouter Au Cart</button>
+      </div>
+
+      <div class="Menuitem">
+        <img class="Menuitemimg" src="Resrouces/IMG/NYC.jpg" alt="Bread">
+        <p class="Menuitemname">New York Roll - 14$</p>
+        
+        <button class="ButtonAddCart" id="21">Ajouter Au Cart</button>
+      </div>
+      <div class="Menuitem">
+        <img class="Menuitemimg" src="Resrouces/IMG/SC.jpg" alt="Bread">
+        <p class="Menuitemname">Sugar Cookies - 1.99 ea.</p>
+        
+        <button class="ButtonAddCart" id="22">Ajouter Au Cart</button>
+      </div>
+      <div class="Menuitem">
+        <img class="Menuitemimg" src="Resrouces/IMG/LB.jpg" alt="Bread">
+        <p class="Menuitemname">Lemon Bars - 2.99 ea.</p>
+        
+        <button class="ButtonAddCart" id="23">Ajouter Au Cart</button>
+      </div>
+
+    </div>
+    <div id="SandSideNav" class="sidenav">
+      <a class="XButton" onclick="closeNav(`SandSideNav`)">&#10006;</a>
+      <div class="Menuitem">
+        <img class="Menuitemimg" src="Resrouces/IMG/HC.jpg" alt="Bread">
+        <p class="Menuitemname">Ham and Cheese - 12$</p>
+        
+        <button class="ButtonAddCart" id="30">Ajouter Au Cart</button>
+      </div>
+
+      <div class="Menuitem">
+        <img class="Menuitemimg" src="Resrouces/IMG/SS.jpg" alt="Bread">
+        <p class="Menuitemname">Steak Panini - 15$</p>
+        
+        <button class="ButtonAddCart" id="31">Ajouter Au Cart</button>
+      </div>
+      <div class="Menuitem">
+        <img class="Menuitemimg" src="Resrouces/IMG/CS.jpg" alt="Bread">
+        <p class="Menuitemname">Caprese Panino - 10$</p>
+        
+        <button class="ButtonAddCart" id="32">Ajouter Au Cart</button>
+      </div>
+      <div class="Menuitem">
+        <img class="Menuitemimg" src="Resrouces/IMG/CM.jpg" alt="Bread">
+        <p class="Menuitemname">Croque Monsieur - 9$</p>
+        
+        <button class="ButtonAddCart" id="33">Ajouter Au Cart</button>
+      </div>
+      <div class="Menuitem">
+        <img class="Menuitemimg" src="Resrouces/IMG/ClubS.jpg" alt="Bread">
+        <p class="Menuitemname">Chicken Club - 20$</p>
+        
+        <button class="ButtonAddCart" id="34">Ajouter Au Cart </button>
+      </div>
+
+    </div>
+    <div id="story">
+    <h1>Notre Histoire</h1>
+    <p>C'est dans un coin pittoresque de la ville, au milieu des rues pavées et des jardins fleuris, que le rêve de Thomas et de Leo a germé. Forts de leur amour commun pour la pâtisserie et d'une amitié indéfectible forgée dans l'enfance, ils se sont engagés à ouvrir une boulangerie ensemble. Après des années de sauvegarde et de perfectionnement des recettes, Flourishing Bonds a ouvert ses portes, exhalant des odeurs de pain fraîchement cuit et de délices sucrés. Elle est rapidement devenue plus qu'une simple boulangerie, se transformant en un centre communautaire apprécié où les gens se rassemblent non seulement pour les friandises, mais aussi pour la chaleur de la camaraderie de Thomas et de Leo. </p>
+      
+      </div>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <img src="Resrouces/IMG/Inside.jpg" style="width:100%">
+        <div class="text">Nos Pâtisseries</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <img src="Resrouces/IMG/Inside 2.jpg" style="width:100%">
+        <div class="text">Biscuits et Friandises</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="Resrouces/IMG/Inside 3.jpg" style="width:100%">
+        <div class="text">Notre Staff</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="Resrouces/IMG/Inside 4.jpg" style="width:100%">
+        <div class="text">Chocolatines et Biscuits</div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+
+      <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+      
+      </div>
+  </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="script.js"></script>
+<script type="module" src="Backend.js"></script>
+
+
+
+
+
+  
+<footer>
+  <div id="footer">
+    <div class="footel" id="Contact">
+      <h2>Contact</h2>
+      <p>Crumb & Co. Bakery:
+        <br>
+        1600 Pennsylvania Avenue NW, Washington, DC
+        <br>
+        <br>
+        Tel: (613) 234-7664
+      
+      </p>
+    </div>
+    <div class="footel" id="About">
+      <h1>About</h1>
+      <a href="#">Notre Histoire</a>
+    </div>
+    <div class="footel" id="Social">
+      <h1>Social</h1>
+      <div>
+        <a href="https://www.facebook.com/zuck/?locale=fr_CA" class="fa fa-facebook"></a>
+        <a href="https://x.com/JoeBiden?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor&mx=2" class="fa fa-twitter"></a>
+        <a href="https://www.youtube.com/c/Cha%C3%AEneYouTubeduCEPEO" class="fa fa-youtube"></a>
+        <a href="https://www.instagram.com/champagnepapi/" class="fa fa-instagram"></a>
+      </div>
+      
+    </div>
+    <div class="footel" id="Legal">
+      <h1>Legal</h1>
+      <a href="">Terms of Use</a>
+      <a href="">Privacy Policy</a>
+      <a href="">Cookies</a>
+      
+    </div>
+  </div>
+</footer>
+</html>

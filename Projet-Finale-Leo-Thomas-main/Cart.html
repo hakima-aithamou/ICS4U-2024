@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="cartstyle.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+  </head>
+  <body>
+    <div id="banner">
+      <img src="Resrouces/IMG/Logo.png" alt="" />
+      <div id="cartrec">
+        <div id="receipt" style="overflow-y:scroll";></div>
+        <hr />
+        <div id="Money">
+        <p id=Soustotal>SousTotale: </p>
+        <p id=Tax>Tax: </p>
+        <p id=Total>Totale:</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script type="module" src="Backend.js"></script>
+  <script src="cartscript.js"></script>
+</html>
