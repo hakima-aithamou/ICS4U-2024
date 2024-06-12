@@ -1,0 +1,258 @@
+* {
+  font-family: "proxima-nova", sans-serif;
+  color: #4c3017;
+}
+
+body {
+  font-family: "proxima-nova", sans-serif;
+  color: #4c3017;
+}
+
+#header1 {
+  width: 100%;
+  height: 70px;
+  background-color: #d54110;
+  padding: 0px 100px;
+  margin-left: -10px;
+  margin-top: -10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#enableweb {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-decoration: none;
+  margin-left: 1150px;
+  margin-top: 8px;
+}
+
+.logo img {
+  width: 215px;
+  height: 40px;
+  margin-top: 40px;
+  margin-left: 665px;
+}
+
+#spans {
+  display: flex;
+  flex-direction: row;
+  width: 60em;
+  padding-top: 0.5em;
+  color: #4A3019;
+  font-size: 1em;
+  font-weight: 800;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-left: 15em;
+  margin-top: 20px;
+}
+
+#plasticgift {
+  width: 14em;
+  margin-right: 12em;
+  /* Increased margin */
+  height: 1em;
+  text-decoration: none;
+}
+
+#egift {
+  width: 11em;
+  margin-right: 12em;
+  height: 1em;
+  text-decoration: none;
+}
+
+#home1 {
+  width: 3em;
+  margin-right: 12em;
+  height: 1em;
+  text-decoration: none;
+}
+
+#francais1 {
+  text-decoration: none;
+  height: 1em;
+  width: 5.5em;
+  margin-right: 12em;
+}
+
+.bannerlogo {
+  margin-left: 140px;
+  margin-top: 40px;
+}
+
+.ecardlogo {
+  height: 276px;
+  width: 409.1px;
+  background-color: #d54110;
+}
+
+.ecardlogo img:hover {
+  cursor: pointer;
+}
+
+.cardlogo {
+  height: 276px;
+  width: 409px;
+  background-color: #d54110;
+}
+
+.balancelogo {
+  height: 276px;
+  width: 409.1px;
+  background-color: #d54110;
+}
+
+#milieu {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#pgiftcards {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  width: 1300px;
+  margin-left: 100px;
+}
+
+h1 {
+  color: #48311B;
+  font-family: "proxima-nova", sans-serif;
+  font-size: 2.3em;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 5px 0 10px;
+  text-align: center;
+  width: 100%;
+  letter-spacing: 0px;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 30px;
+  width: 300px;
+  text-align: center;
+}
+
+.ecardlogo h2 {
+  margin-left: 50px;
+}
+
+.balancelogo h2 {
+  margin-left: 50px;
+}
+
+.cardlogo h2 {
+  margin-left: 50px;
+}
+
+.ecardlogo p {
+  font-size: 20px;
+  width: 400px;
+  text-align: center;
+}
+
+.balancelogo p {
+  font-size: 20px;
+  width: 400px;
+  text-align: center;
+}
+
+.cardlogo p {
+  font-size: 20px;
+  width: 400px;
+  text-align: center;
+}
+
+.ecardlogo img {}
+
+#scbalance {
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+#buyecard{
+  margin-top: 60px;
+  margin-left: 60px;
+}
+#buyplasticcard{
+  margin-top: 60px;
+  margin-left: 60px;
+}
+#footerh h3 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+#topmilieu {
+  margin-top: 40px;
+  margin-left: 25px;
+}
+
+.balancelogo {
+  margin-left: 20px;
+}
+
+.cardlogo {
+  margin-left: 20px;
+}
+
+.ecardlogo {
+  margin-left: 150px;
+}
+
+#footerh {
+  margin-top: 400px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 150px;
+  font-size: 14px;
+}
+
+#footerp {
+  display: flex;
+  flex-direction: row;
+  margin-left: 150px;
+  font-size: 14px;
+}
+
+#footernum {
+  color: #d54110;
+  text-decoration: underline;
+}
+
+#footerpriv:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#footernum:hover {
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+#footerfaq {
+  margin-left: 20px;
+}
+
+#footerfaq:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#footerterms {
+  margin-left: 20px;
+}
+
+#footerterms:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
