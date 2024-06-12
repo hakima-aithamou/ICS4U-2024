@@ -1,0 +1,255 @@
+.postContainerFull {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(36, 36, 36, 0.9);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.exitButtonOuterContainer {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+    padding-left: 5px;
+}
+
+.exitButtonInnerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 38px;
+    aspect-ratio: 1;
+    height: auto;
+    border-radius: 1000px;
+}
+
+.exitButtonInnerContainer:hover {
+    background-color: rgba(255, 255, 255, 0.04);
+}
+
+.postContainer {
+    width: 730px;
+    min-height: 400px;
+    max-height: 80vh;
+    border-radius: 8px;
+    transition-property: opacity, transform;
+    transition-duration: 180ms;
+    transition-timing-function: ease-in-out;
+    border: 1px solid #393839;
+    background-color: #181818;
+}
+
+.toggleContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.questionToggle, .postToggle {
+    position: relative;;
+    text-align: center;
+    padding: 8px;
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+.questionToggle h3, .postToggle h3 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.questionSelected, .postSelected {
+    position: absolute;
+    bottom: 0;
+    left: 3px;
+    right: 3px;
+    height: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #287dff;
+}
+
+.containerBottom {
+    position: relative;
+    padding: 16px;
+    height: 450px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.questionTips {
+    width: 100%;
+    border-radius: 3px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #282d41;
+    color: #4894fd;
+    box-sizing: border-box;
+}
+
+.questionTips ul {
+    padding-inline-start: 20px;
+}
+
+.questionTips li {
+    font-size: 15px;
+}
+
+.questionTypeContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+.tempProfilePic {
+    width: 18px;
+    height: 18px;
+    background-color: grey;
+    border-radius: 1000px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.tempProfilePic:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.questionTypeButton {
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 30px;
+    min-height: 30px;
+    border-radius: 1000px;
+    box-sizing: border-box;
+    border: 1px solid rgba(230, 231, 232, 0.2);
+    background-color: transparent;
+    padding: 0px 15px 0px 10px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.questionTypeButton:hover {
+    background-color: rgba(255,255,255,.04);
+}
+
+.questionTypeButton h3 {
+    margin-left: 4px;
+    color: #e6e7e8;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.questionInputContainer {
+    border-bottom: 1px solid #393839;
+}
+
+.questionInputContainer:hover {
+    border-bottom-color: #2e69ff;
+}
+
+.questionInput {
+    padding: 0;
+    margin-top: 16px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    resize: none;
+    outline: currentColor;
+    box-sizing: border-box;
+}
+
+.popupContainer {
+    width: 230px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 125%;
+    border-radius: 3px;
+    background-color: #262626;
+    border: 1px solid #393839;
+    visibility: hidden;
+}
+
+
+.popupSec {
+    text-align: left;
+    padding: 8px 16px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.popupSec:hover {
+    background-color: #393839;
+}
+
+.popupSec:hover span {
+    text-decoration: underline;
+}
+
+.public, .limited {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.submitPostButton, .submitQuestionButton {
+    background-color: #287dff;
+    border-radius: 1000px;
+    padding: 0 20px;
+    border: none;
+    height: 38px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.sumbitButtonContainer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 8px 16px;
+    border-top: 1px solid #393839;
+}
+
+.submitQuestionButton:disabled, .submitPostButton:disabled {
+    cursor: default;
+    opacity: 0.5;
+}
+
+.postAdd, .questionAdd {
+    display: block;
+}
+
+.postProfile {
+    border-radius: 100%;
+}
+
+.postTop {
+    display: flex;
+    flex-direction: row;
+}
+
+.postProfileImg {
+    margin-right: 8px;
+    border-radius: 100%;
+}
+
+.postTop {
+    font-weight: 700;
+    font-size: 13px;
+    color: #fff;
+}

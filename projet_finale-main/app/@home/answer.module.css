@@ -1,0 +1,17 @@
+.answerFull {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    inset: 0;
+    position: absolute;
+    background-color: rgba(36, 36, 36, 0.9);
+}
+
+.answerContainer {
+    width: 730px;
+    max-height: 80vh;
+    border-radius: 3px;
+    background-color: #181818;
+    border: 1px solid;
+
+}

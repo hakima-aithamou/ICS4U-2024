@@ -1,0 +1,220 @@
+.navbar {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    min-height: 50px;
+    width: 100%;
+    background-color: #262626;
+    z-index: 10;
+}
+
+.navbarContainer {
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+
+.title {
+    height: 50px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.title:hover > .titleImg {
+    opacity: 0.7;
+}
+
+.navbarItem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+    min-width: 60px;
+    height: 49px;
+}
+
+.selectedItem, .currentlySelectedItem {
+    position: absolute;
+    height: 3px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    left: 8px;
+    right: 8px;
+    bottom: 0;
+    z-index: 1;
+}
+
+.currentlySelectedItem {
+    background-color: #f52936;
+}
+
+.itemHover {
+    position: absolute;
+    inset: 3px 0;
+}
+
+.navbarItem:hover > .itemHover {
+    background-color: rgb(51, 51, 51);
+    border-radius: 3px;
+}
+
+.navbarItem:hover > .selectedIcon {
+    opacity: 0.7;
+}
+
+.itemName {
+    position: absolute;
+    top: calc(100% + 8px);
+    padding: 8px 16px 8px 16px;
+    font-size: 13px;
+    border-radius: 1000px;
+    text-align: center;
+    background-color: #414042;
+    color: #d5d6d6;
+    box-sizing: border-box;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.95) translateY(-3px);
+    transition-property: transform, opacity;
+    transition-duration: 180ms, 100ms;
+    transition-timing-function: cubic-bezier(0.23, 0.19, 0.1, 1.34), ease;
+}
+
+.navbarItem:hover > .itemName {
+    transform: scale(1) translateY(0);
+    transition-property: transform, opacity;
+    transition-duration: 180ms, 100ms;
+    transition-timing-function: cubic-bezier(0.23, 0.19, 0.1, 1.34), ease;
+    transition-delay: 500ms;
+    opacity: 1;
+}
+
+.main {
+    margin-top: 50px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px 24px 0 24px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: initial;
+    box-sizing: border-box;
+}
+
+.searchBar {
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 8px;
+    padding: 4px 8px;
+    border: 1px solid #393839;
+    background-color: #181818;
+    border-radius: 3px;
+}
+
+.searchBar:hover {
+    border-color: #2e69ff;
+}
+
+.searchBarIcon {
+    margin-right: 4px;
+}
+
+.searchBar input {
+    width: 100%;
+    color: #fff;
+    font-size: 13px;
+    background-color: transparent;
+    min-height: 26px;
+    outline: currentColor;
+}
+
+.profileMenuContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+    padding: 0 8px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.profileMenuContainer:hover {
+    background-color: rgb(51, 51, 51) ;
+}
+
+.profileMenuIcon {
+    border-radius: 100%;
+}
+
+.addQuestion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 8px;
+    border: none;
+    border-radius: 1000px;
+    background-color: #f52936;
+    height: 30px;
+    min-width: 30px;
+    padding: 0px 10px;
+}
+
+.addQuestion p {
+    padding: 0 10px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #fff;
+}
+
+.dropDownMenu {
+    display: none;
+    top: 58px;
+    position: absolute;
+    z-index: 101;
+    background-color: #262626;
+    border: 1px solid #393839;
+    max-height: calc(-82px + 100vh);
+    width: 260px;
+}
+
+.dropTop {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #393839;
+    color: #fff;
+    padding: 8px 16px;
+    padding-bottom: 16px;
+}
+
+.dropImg {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    border-radius: 100%;
+}
+
+.dropProfileContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profileName {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.dropTop p {
+    font-size: 13px;
+}

@@ -1,0 +1,123 @@
+.mainContent {
+    width: 658px;
+}
+
+.questionContainer {
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,.15);
+    border: 1px solid #262626;
+    background-color: #262626;
+    border-radius: 3px;
+    padding: 12px 12px 0px;
+    margin-bottom: 16px;
+}
+
+.questionTitle {
+    color: #fff;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.questionButtons {
+    padding: 4px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.answerButton, .followButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    min-width: 38px;
+    height: 38px;
+    background-color: transparent;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 1000px;
+}
+
+.answerButton {
+    box-shadow: rgba(230, 231, 232, 0.2) 0px 0px 0px 1px inset;
+    padding: 0px 20px 0px 12px;
+}
+
+.answerButton:hover, .followButton:hover {
+    background-color: rgba(255, 255, 255, 0.04);
+}
+
+.answerButton p, .followButton p {
+    color: #e6e7e8;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+.followButton {
+    padding: 0px 12px;
+}
+
+.questionBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #181818;
+    padding: 16px;
+}
+
+.profilePic {
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 100%;
+}
+
+.canAnswer {
+    font-weight: 500;
+    margin-top: 8px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.questionBottom p {
+    color: #b1b3b6;
+    font-size: 13px;
+}
+
+.answerContainer {
+    width: 100%;
+    background-color: #262626;
+    border: 1px solid #262626;
+    margin-bottom: 8px;
+    padding: 12px 12px 0px;
+    border-radius: 3px;
+}
+
+.answerContainer p {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.answerProfilePic {
+    border-radius: 100%;
+    margin-right: 8px;
+}
+
+.answerContainerTop {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+}
+
+.answerProfileName {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.answerCred {
+    color: #e6e7e8;
+    font-weight: 400;
+    font-size: 13px;
+}

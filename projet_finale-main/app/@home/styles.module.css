@@ -1,0 +1,94 @@
+.forum {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    min-width: 588.5px;
+    margin-left: 16px;
+}
+
+.ads {
+    flex-shrink: 0;
+    width: 356px;
+    margin-left: 16px;
+}
+
+.postContainer {
+    background-color: #262626;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    border-radius: 3px;
+}
+
+.postContainerTop {
+    background-color: #262626;
+    padding: 12px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.searchPromt {
+    background-color: #202020;
+    border-radius: 1000px;
+    min-height: 32px;
+    line-height: 32px;
+    margin-left: 8px;
+    border: 1px solid #393839;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(177, 179, 182);
+    padding-left: 10px;
+    padding-right: 10px;
+    flex: 1 1 0%;
+}
+
+.postContainerBottom {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    box-sizing: border-box;
+}
+
+.postButton {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 1000px;
+    border: none;
+    background-color: transparent;
+}
+
+.postCenter, .postContainerBottom, .postButton {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.postButton:hover {
+    background-color: rgba(255,255,255,.04);
+}
+
+.postIcon path {
+    stroke: #e6e7e8 !important;
+}
+
+.postText {
+    line-height: normal;
+    color: #e6e7e8;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 4px;
+}
+
+.answerLink {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.postProfile {
+    border-radius: 100%;
+}
