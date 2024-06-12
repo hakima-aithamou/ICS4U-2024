@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tim Login</title>
+  <link rel="stylesheet" href="connexion.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+</head>
+<body>
+  <div id = "main-bordure">
+  <img id="Loginpic" src="Resources/IMG/TimHortonsLogin.PNG" alt="">
+  <div id="Login">
+    <img id ="Logoimg" src="Resources/IMG/TimHLogo.PNG" alt="">
+    <div class = "Milieu" id = "Login-form">
+      <!-- Boutons pour display -->
+    <div>
+      <button id = "btnInscription" class = "btnswitch">Inscription</button>
+      <button id = "btnConnexion" class = "btnswitch">Connexion</button>
+    </div>
+      <!-- Display Inscription -->
+    <div class = "Milieu" id = "Inscription">
+        <div class = "form">
+            <input type="text" id="prénom" class="form__input" autocomplete="off" placeholder="">
+            <label id = "nom" for="prénom" class="form__label">Prénom *</label>
+            <input type="text" id="email" class="form__input" autocomplete="off" placeholder="">
+            <label id = "mail" for="email" class="form__label">Adresse courriel *</label>
+          </div>
+      
+      <button id = btnDateN>Informations facultatives <span class="material-icons">keyboard_arrow_down </span></button>
+      <div id = "Date-Input" class = "form">
+        <input id = "dateA" type="number" class="form__inputDate" autocomplete="off" placeholder="">
+        <label id = "DatA" for="dateA" class="form__label">Année</label>
+        <input id = "dateM" type="number" class="form__inputDate" autocomplete="off" placeholder="">
+        <label id = "DatM" for="dateM" class="form__label">Mois</label>
+        <input id = "dateJ" type="number" class="form__inputDate" autocomplete="off" placeholder="">
+        <label id = "DatJ" for="dateJ" class="form__label">Jour</label>
+      </div>
+      <div id = "Check-Inputs">
+        <div>
+            <input type="checkbox">
+            <p>Je souhaite recevoir par courriel des informations et des offres spéciales de Tim Hortons</p>
+        </div>
+        <div>
+            <input type="checkbox" id = "checkrequis">
+            <p>J'accepte la:
+        politique de confidentialité <a href ="">(FR | EN)</a><br>
+        Modalites et Conditions FideliTim <a href ="">(FR | EN)</a><br>
+        conditions d’utilisation <a href ="">(FR | EN)</a></p><br>
+        </div>
+      </div>
+      <button id = "btnCompte" class = "Milieu">Créer un compte</button>
+    </div>
+      <!-- Display Connexion -->
+    <div id = "Connexion" class = "Milieu">
+      <form id="login-form" class = "form">
+        <input type="text" id="Cemail" name="username" class="form__input" autocomplete="on" placeholder="">
+            <label for="Cemail" class="form__label">Adresse courriel *</label>
+      </form>
+      <button id = "btnConnecter" class = "Milieu">Connexion</button>
+    </div>
+      <!-- fin display -->
+  </div>
+  </div>
+  </div>
+  
+</body>
+  <script src = "connexion.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+  <script type="module" src="Backend.js"></script>
+</html>

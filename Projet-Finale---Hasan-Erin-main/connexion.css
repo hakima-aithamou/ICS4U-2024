@@ -1,0 +1,171 @@
+body{
+    color:rgb(63, 32, 33);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 0.5cm;
+    background-color: rgb(249, 245, 238);
+}
+#loginpic{
+    width: 100%;
+    height: 100%;
+    background-image: url(Resources/IMG/);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 10;
+    z-index: -1;
+    filter: blur(8px);
+    float: left;
+}
+#main-bordure{
+      display: flex;
+}
+#Login{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+
+}
+#Login-form{
+    background-color: white;
+    width:10cm;
+    border-radius: 50px;
+}
+.btnswitch{
+    font-size: 0.5cm;
+    border-style:none none solid none;
+    background-color: white;
+    color:rgb(63, 32, 33);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1cm;
+    width:4.9cm;
+}
+#Logoimg{
+    height:3cm;
+}
+.Milieu, .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: center;
+    margin:auto;
+}
+#Inscription{
+    display: none;
+    padding:1em;
+}
+#Connexion{
+    padding:1em;
+}
+/* Text Field Label */
+*,
+*::before,
+*::after{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.form{
+    position: relative;
+    width: 8cm;
+    height: 3rem;
+    margin-bottom: 5rem;
+    align-items: center;
+  }
+/* Mettre email sous prenom */
+#email, #mail{
+    margin-top: 4rem;
+}
+.form__input{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgb(171, 168, 168);
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: inherit;
+  background: none;
+  outline:none;
+  padding: 1.25rem;
+  transition:all 160ms ease-in;
+}
+.form__inputDate{
+    position: absolute;
+    top:0;
+    left:0;
+    width:2.5cm;
+    height: 100%;
+    border: 1px solid rgb(171, 168, 168);
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: inherit;
+    background: none;
+    outline:none;
+    padding: 1.25rem;
+    transition:all 160ms ease-in;
+}
+.form__input:hover , .form__inputDate:hover{
+  border-color: rgb(63, 32, 33);
+}
+.form__input:focus , .form__inputDate:focus{
+  border-color: rgb(63, 32, 33);
+}
+.form__label{
+  position: absolute;
+  left: 1rem;
+  top: 0.8rem;
+  padding:0 0.5rem;
+  cursor: text;
+  transition: top 200ms ease-in, lef 200ms ease-in, font-size 200ms ease-in;
+  background-color:white;
+}
+.form__input:focus ~ .form__label , .form__input:not(:placeholder-shown).form__input:not(:focus) ~ .form__label, .form__inputDate:focus ~ .form__label, .form__inputDate:not(:placeholder-shown).form__inputDate:not(:focus) ~ .form__label{
+  top: -0.5rem;
+  font-size: 0.8rem;
+  left: 0.8rem;
+}
+/* Dates display */
+#Date-Input{
+    display: none;
+}
+#DatM, #dateM{
+    margin-left: 2.8cm;
+}
+#DatJ, #dateJ{
+    margin-left: 5.6cm;
+}
+#btnConnecter, #btnCompte{
+    padding:15px;
+    width:8cm;
+    border-radius:50px;
+    background-color: rgb(202, 19, 43);
+    color:white;
+    font-weight: bold;
+    font-size: larger;
+    border:none;
+}
+#btnDateN{
+    border:none;
+    background-color: white;
+    display:flex;
+}
+#Check-Inputs div{
+    display: flex;
+    align-items: flex-start;
+    margin: 8px 0px;
+    width: fit-content;
+    cursor: pointer;
+    font-size:17px;
+    font-weight:200;
+    line-height: 30px;
+}
+#checkrequis{
+    display: inline-flex;
+}
